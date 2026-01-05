@@ -18,5 +18,5 @@ function updateTime() {
   parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
 }
 
-updateTime;
+updateTime();
 setInterval(updateTime, 1000);
